@@ -1,0 +1,157 @@
+body{
+    background-color: #edefef;
+    font-family: 'Markazi Text', sans-serif;
+    margin: 3rem 5% 3rem 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+
+}
+nav li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+nav a:hover{
+    color: #edefef;
+}
+nav li:hover{
+    background-color: #f4ce14;
+    cursor: pointer;
+    color: #edefef;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 18px;
+}
+/*main*/
+main h2 {
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px #464a00;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    
+}
+article h4{
+    background-color: #f4ce14;
+    width: 85px;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 18px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 6px #495e57;
+}
+main .promo-row {
+    grid-column: 1 / -1;
+}
+
+main .promo-row article {
+    background-image: url('./img/promo1.jpg');
+    background-color: #000B11;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    color: white;
+    margin-bottom: 30px;
+}
+main .promo-row2 {
+    grid-column: 1 / -1;
+}
+
+main .promo-row2 article {
+    background-image: url('./img/promo2.jpg');
+    background-color: #000B11;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    color: white;
+    margin-bottom: 30px;
+}
+main article {
+    border-radius: 25px;
+    padding: 1rem;
+}
+main p {
+    padding: 1rem 0;
+}
+main img {
+    transition: filter 1.5s ease;
+    filter: grayscale(100%);
+    max-width: 100%;
+}
+main img:hover {
+    filter: none;
+}
+main .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+main .row article {
+    background-color: #F4E5D6;
+}
+main a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        border-style: solid;
+        border-radius: 18px;
+}
+main a:hover {
+    color: #edefef;
+}
+
+main a:hover {
+    background-color: #f4ce14;
+    cursor: pointer;
+    color: #edefef;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 18px;
+}
+main ul {
+    padding-left: 2rem;
+}
+.footer-logo{
+    text-align: left;
+}
+footer img {
+    display: block;
+    margin-left: 95%;
+    max-width: 5%;
+    height: auto;
+
+
+}
+footer > div:first-child{
+    text-align: center;
+    margin-top: 1rem;
+}
